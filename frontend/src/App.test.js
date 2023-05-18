@@ -1,6 +1,9 @@
-import { screen } from '@testing-library/react';
+import React from 'react';
+import { render } from '@testing-library/react';
+import App from './App';
 
-
-test('checks if text is not present', () => {
-  expect(screen.queryByText('This should not appear on screen.')).toBeFalsy();
+test('renders cleanup react app message', () => {
+  const { getByText } = render(<App />);
+  const cleanupMessage = getByText(/Cleanedup React App/i);
+  expect(cleanupMessage).toBeInTheDocument();
 });

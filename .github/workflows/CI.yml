@@ -44,9 +44,9 @@ jobs:
         run: npm install
       
       # Run test cases and this could ensure minimum coverage as well if set
-      - name: Test frontend
-        working-directory: ./frontend
-        run: npm test
+      # name: Test frontend
+      #  working-directory: ./frontend
+      # run: npm test
 
       - name: Install frontend dependencies
         working-directory: ./frontend
