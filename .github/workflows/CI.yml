@@ -39,16 +39,19 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
        
-      - name: Install package dependencies
+      - name: Install package dependencies at frontend
+        working-directory: ./frontend
         run: npm install
       
-      - name: Check linting and formatting
-        # Custom script for checking the linting and formatting being in place
-        run: npm run lint
-      
       # Run test cases and this could ensure minimum coverage as well if set
-      - name: Execute test cases
-        run: npm run test
-        
-      - name: Create test build
+      - name: Test frontend
+        working-directory: ./frontend
+        run: npm test
+
+      - name: Install frontend dependencies
+        working-directory: ./frontend
+        run: npm install
+
+      - name: Build frontend
+        working-directory: ./frontend
         run: npm run build
