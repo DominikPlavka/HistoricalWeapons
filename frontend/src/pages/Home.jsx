@@ -4,8 +4,10 @@ const Home = () => {
 
     return (
         <div className="main-container">
-            <h1 className="h1">Test heading</h1>
-            <p className="text">lhasdal layh sd</p>
+            <h1>Test heading 1</h1>
+            <h2>Test heading 2</h2>
+            <h3>Test heading 3</h3>
+            <p>Paragraph text</p>
         </div>
     )
 };
