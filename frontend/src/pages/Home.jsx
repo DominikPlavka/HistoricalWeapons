@@ -1,4 +1,5 @@
 import "./Home.scss"
+import Timeline from "../components/Timeline";
 
 const Home = () => {
 
@@ -8,6 +9,7 @@ const Home = () => {
             <h2>Chladné zbrane</h2>
             <h3>Podnadpis</h3>
             <p>Text</p>
+            <Timeline />
         </div>
     )
 };
