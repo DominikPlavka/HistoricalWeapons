@@ -1,5 +1,5 @@
 import "./Home.scss";
-import { ArrowRightIcon, FaceIcon, ImageIcon, SizeIcon, SunIcon } from '@radix-ui/react-icons';
+import { ArrowRightIcon } from '@radix-ui/react-icons';
 
 const Home = () => {
 
