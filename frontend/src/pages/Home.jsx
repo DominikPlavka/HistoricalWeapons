@@ -16,25 +16,23 @@ const Home = () => {
                         <div className="menu">
                             <div>
                                 <h2>Stopy histórie</h2>
-                                <p>Zbrane z rôznych období a </p>
+                                <p>Zbrane z rôznych období a krajín.</p>
                             </div>
-                            <div className="icon-wrapper">
-                                <ArrowRightIcon
-                                    className="icon"
-                                />
+                                <div className="icon-wrapper">
+                                    <ArrowRightIcon
+                                        className="icon"
+                                    />
                             </div>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div><ArrowRightIcon /></div>
             <div className="content-container">
                 <div className="header-container">
                     <div>
-                        <h1>Historické zbrane</h1>
-                        <hr />
-                        <h2>Blablabla</h2>
+                        <h2>Ukážky<br /><span style={{color: "white"}}>mojej práce</span></h2>
+                        <p>A real journey through history to discover one of the most important pages of our 20th century. But not only that: a journey to discover Friuli Venezia Giulia, a region to be fully experienced</p>
                     </div>
                     <div className="menu-wrapper">
                         <div className="menu">

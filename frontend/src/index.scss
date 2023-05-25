@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
 @import "../src/styles/breakpoints.scss";
 
 
-$mobile-inner-padding: 2em;
+$mobile-inner-padding: 2.4em;
 $dark-font: #3b3b3b;
 $golden-font: #dfb645;
 $bright-font: #ffffff;
-$bottom-margin: 0.3em;
+$mobile-bottom-margin: 0.3em;
 
 * {
     padding: 0;
@@ -20,32 +21,32 @@ h1 {
     font-weight: 900;
     font-size: 4em;
     color: $bright-font;
-    margin-bottom: $bottom-margin;
+    margin-bottom: $mobile-bottom-margin;
 }
 
 h2 {
-    font-family: 'Crimson Text', sans-serif;
+    font-family: 'DM Serif Text', sans-serif;
     font-weight: 700;
     font-size: 2em;
-    font-style: italic;
     color: $golden-font;
-    margin-bottom: $bottom-margin;
+    margin-bottom: $mobile-bottom-margin;
 }
 
 h3 {
-    font-family: 'Amiko', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6em;
     color: $bright-font;
-    margin-bottom: $bottom-margin;
+    margin-bottom: $mobile-bottom-margin;
 }
 
 p {
-    font-family: 'Amiko', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     color: #505050;
     font-size: 1em;
     color: $bright-font;
-    margin-bottom: $bottom-margin;
+    margin-bottom: $mobile-bottom-margin;
+    line-height: 1.5em;
 }
 
 hr {
@@ -53,5 +54,5 @@ hr {
     height: 0.2em;
     background-color: white;
     border: none;
-    margin-bottom: $bottom-margin;
+    margin-bottom: $mobile-bottom-margin;
 }
