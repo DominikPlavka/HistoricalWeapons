@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
-@import "../src/breakpoints/breakpoints.scss";
+@import "../src/styles/breakpoints.scss";
 
 
-$inner-padding: 4em;
+$mobile-inner-padding: 2em;
 $dark-font: #3b3b3b;
-$golden-font: #e6be00;
+$golden-font: #dfb645;
 $bright-font: #ffffff;
-$bottom-margin: 0.5em;
+$bottom-margin: 0.3em;
 
 * {
     padding: 0;
@@ -43,7 +43,7 @@ p {
     font-family: 'Amiko', sans-serif;
     font-weight: 400;
     color: #505050;
-    font-size: 1.2em;
+    font-size: 1em;
     color: $bright-font;
     margin-bottom: $bottom-margin;
 }
