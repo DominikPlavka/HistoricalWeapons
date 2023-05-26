@@ -1,4 +1,4 @@
-$timeline-height: 2em;
+$timeline-height: 2.5em;
 $timeline-weight: 0.14em;
 
 p {
@@ -7,22 +7,29 @@ p {
 
 .timeline-container {
     padding: 50px;
+    min-width: 320px;
 }
 
 .horizontal-line-top {
-    border-bottom: $timeline-weight solid red;
+    border-bottom: $timeline-weight solid rgb(49, 49, 49);
     display: flex;
     justify-content: space-between;
 }
 
 .horizontal-line-bottom {
-    border-top: $timeline-weight solid red;
     display: flex;
     justify-content: space-between;
 }
 
-.vertical-line {
-    border-left: 0.2em solid red;
+.vertical-line-up {
+    padding: 0.5em;
+    border-left: $timeline-weight solid rgb(49, 49, 49);
     height: $timeline-height;
-    
+}
+
+
+.vertical-line-down {
+    padding: 0.5em;
+    border-left: $timeline-weight solid rgb(49, 49, 49);
+    height: 1em;
 }
